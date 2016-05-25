@@ -1,0 +1,122 @@
+body{
+	
+
+
+    background: url(../img/tareas.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+	font-family: 'papyrus', cursive;
+	font-size: 1.2em;
+	
+}
+
+#titulo{
+	font-size: 1.5em;
+	font-weight: bolder;
+	text-shadow: 3px 1px 2px #F3E2A9;
+	float:center;
+
+}
+
+
+#tarea{
+	width: 70%;
+	border-radius: 5px;
+	font-family: 'papyrus', cursive;
+	font-size: 1em;
+	padding-left: .5em;
+	border: 0;
+	box-shadow: inset 0 0 8px  rgba(0,0,0,0.1), 0 0 6px #000; 
+	background: rgba(0,0,0,0.5);
+	margin-top: 2em;
+	float:left;
+	border-right: 1px dotted white;
+	height: 80px;
+    margin: 100px auto ;
+	width: 400px;
+}
+
+
+.terminado{
+	text-decoration: line-through;
+	color: red;
+	text-shadow: 2px .5px 2px #000;
+}
+
+/*tabla*/
+#tabint{
+	margin-top: 2em;
+}
+#tabint table{
+	width: 56%;
+	background-size: cover;
+	border-radius: 0px;
+	border: solid 1px #F3E2A9;
+	box-shadow: 0 0 10px #333;
+	font-weight: bolder;
+	margin-top: 2em;
+	float:right;
+	border-right: 1px dotted white;
+	height: 80px;
+    margin: 10px auto ;
+	width: 400px;
+}
+
+#tabint table tbody tr td,#tabint table tbody tr th{
+	transition: all 400ms ease-in;
+	-webkit-transition: all 400ms ease-in;
+	-moz-transition: all 400ms ease-in;
+	-o-transition: all 400ms ease-in;
+	-ms-transition: all 400ms ease-in;
+	text-align: center;
+	word-wrap: break-word;
+	border: solid 0px #F3E2A9;
+	border-bottom: solid 1px #fff;
+	border-top: solid 1px #F3E2A9;
+	border-right: solid 1px #F3E2A9;
+}
+#tabint table tbody tr td:nth-child(odd){
+	background-color: #F3E2A9;
+}
+#tabint table tbody tr td:nth-child(even){
+	background-color: #F3E2A9;
+}
+#tabint table tbody tr:hover td:nth-child(odd),
+#tabint table tbody tr:hover td:nth-child(even){
+	background: rgb(169,219,128);
+background: -moz-linear-gradient(top,  rgba(169,200,200,1) 0%, rgba(200,200,200,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%);
+background: linear-gradient(to bottom,  rgba(500,500,500,1) 0%,rgba(500,500,5000,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333', endColorstr='#333',GradientType=0 );
+
+	opacity: 0.9;
+}
+th{
+	background: background: rgb(169,228,247);
+background: -moz-linear-gradient(top,  rgba(169,228,247,1) 0%, rgba(15,180,231,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%);
+background: linear-gradient(to bottom,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 );
+
+
+
+}
+
+img{
+	height: 1.3em;
+	width: 1.3em;
+}
+#footer1{	
+	background: url(../img/udec1.png) no-repeat;
+	position: fixed;
+	left:0;
+	bottom: 0;
+	height: 55px;
+	width: 100%;
+	background-color: #2E2E2E;
+	
+
+    
+}

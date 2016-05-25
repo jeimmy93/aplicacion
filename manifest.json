@@ -1,0 +1,14 @@
+{
+  "short_name": "aplicacion",
+  "name": "Jeimmy Castañeda",  
+  "icons": [
+  				{
+  					"src": "img/logo.jpeg",
+  					"sizes": "128x128",
+  					"type": "image/jpeg"
+  				}
+  		   ],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
